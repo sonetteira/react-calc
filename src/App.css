@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  font-size: 1.5em;
+  padding: 10px;
+}
+#root {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 85px 85px 85px 85px;
+  grid-gap: 5px;
+}
+#output {
+  height: 70px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+#topDisplay {
+  font-size: 1em;
+}
+#bottomDisplay {
+  font-size: 1.5em;
+}
+#bottomDisplay, #topDisplay {
+  align-self: flex-end;
+  height: 100%;
+}
+.item1 {
+  grid-column: span 1
+}
+.item2 {
+  grid-column: span 2;
+}
+.item3 {
+  grid-column: span 3;
+}
+.item4 {
+  grid-column: span 4;
+}
