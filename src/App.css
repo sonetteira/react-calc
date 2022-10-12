@@ -75,3 +75,6 @@ button {
 .item4 {
   grid-column: span 4;
 }
+.random {
+  color: blue;
+}
